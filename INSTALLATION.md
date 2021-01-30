@@ -224,3 +224,12 @@ Kitty is an alternative to Konsole. You can type the same commands as you do on 
 sudo apt install kitty
 ```
 2.    -INSERT GIT INSTRUCTIONS HERE-
+
+## Useful command line software
+
+### Ranger
+
+Ranger is a TUI (Terminal User Interface) file browser. Install with:
+```
+sudo apt install ranger
+```
