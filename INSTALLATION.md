@@ -133,10 +133,29 @@ sudo apt-add-repository https://cli.github.com/packages
 sudo apt update
 sudo apt install gh
 ```
-2.    Connect your github account by running and following the instructions:
+2.    Connect your github account by running and following the instructions on screen, choosing the deafault whenever given an option:
 ```
 gh auth login
 ```
+## [Curl](https://curl.se)
+
+Curl, or cURL is an application that can transfer data with URLs. Installing this will make installing further configurations and proframs easier. To install, run:
+```
+sudo apt install curl
+```
+## Install my Configuration Files
+
+### Install all configuration files
+
+My configuration files can be downloaded individually. However, you can simply install all my configuration files as follows:
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+### Download all configuration files
+
+Alternatively, you can download all configuration files and then choose which ones to use:
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 # KDE Configuration
 
