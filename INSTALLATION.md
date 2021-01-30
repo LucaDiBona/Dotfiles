@@ -143,6 +143,13 @@ Curl, or cURL is an application that can transfer data with URLs. Installing thi
 ```
 sudo apt install curl
 ```
+## Pip
+
+Pip allows the installation of python libraries. Run
+
+```
+sudo apt install python3-pip
+```
 ## Install my Configuration Files
 
 ### Install all configuration files
@@ -224,6 +231,10 @@ Kitty is an alternative to Konsole. You can type the same commands as you do on 
 sudo apt install kitty
 ```
 2.    -INSERT GIT INSTRUCTIONS HERE-
+
+## Text editor - neovim
+
+This section is heavily inspired by [this configuration](https://github.com/benbrastmckie/.config), [this configuration] and [this configuration](https://github.com/ChristianChiarulli/nvim)
 
 ## Useful command line software
 
