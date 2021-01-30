@@ -161,6 +161,54 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 In this section, I will show how to configure KDE, the desktop environment that Kubuntu uses. This is responsible for the look and feel of the operating system itself.
 
+## Fonts
+
+Install more fonts:
+
+### MS core fonts
+
+These are the fonts Microsoft uses, and will make it easier to share files with Windows users.
+
+1.    Run:
+```
+sudo apt install ttf-mscorefonts-installer
+```
+2.    Scroll to the bottom of the EULA with the down arrow, then select ```OK``` with the right arrow and press Enter to select
+
+3.    Press the left arrow to select ```Yes``` and agree to the EULA. Press Enter to confirm
+
+### [Dosis](https://www.1001fonts.com/dosis-font.html)
+
+This is the main non-monospace font I use. It is free and open source. To install, just run:
+```
+sudo apt install fonts-dosis
+```
+### [JetBrains Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono)
+
+This is my go-to monsopace font, with extra symbols added by using the Nerd Fonts version.
+
+1.    Go to the [latest nerd font releases](https://github.com/ryanoasis/nerd-fonts/releases)
+
+2.    Scoll down to and download ```JetBrainsMono.zip```
+
+3.    A prompt will appear, and ensure that you are extracting with Ark
+
+4.    In the extract dialog, select every fourth file, all those ending with "Mono.zip"
+
+5.    Select ```Extract```, then ```Extract To```
+
+6.    Navigate to your downloads folder, and extract these fonts there
+
+7.    Open your prefered file manager, navigate to downloads and right click the fonts to install
+
+8.    Select to install for all users and enter your password when prompted
+
+### Setting default fonts
+
+
+
+## Theming
+
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 # Installing and Configuring Other Software
