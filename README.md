@@ -1,2 +1,2 @@
 # dotfiles
-dotfiles for my Kubuntu installation
+Dotfiles for my Kubuntu installation
