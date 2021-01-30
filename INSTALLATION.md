@@ -150,6 +150,11 @@ Pip allows the installation of python libraries. Run
 ```
 sudo apt install python3-pip
 ```
+## Node.js and npm
+These useful tools can be installed with:
+```
+sudo apt install nodejs npm
+```
 ## Install my Configuration Files
 
 ### Install all configuration files
