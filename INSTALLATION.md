@@ -124,7 +124,7 @@ sudo apt install lazygit
 ```
 ### [Gihub cli](https://github.com/cli/cli)
 
-Github is the website you are on now, where this configuration is stored. If you haven't already, create a github account
+Github is the website you are on now, where this configuration is stored. If you haven't already, create a github account [here](https://github.com/join?). Then follow the steps below:
 
 # KDE Configuration
 
