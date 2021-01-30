@@ -2,7 +2,17 @@
 
 This is a full guide on how to install Kubuntu for my set up. Feel free to use or copy the whole thing, or just an individual section (see the [license](./LICENSE) for the full legal disclamer)). Things may not work perfectly on your machine, so feel free to create an issue or, even better, a pull request with a solution, to make it work for you.
 
-# Preparing a USB to boot Kubuntu
+# Contents
+
+1. [Installing Kubuntu](#Installing-Kubuntu)
+
+2. [Installing ]
+
+# Installing Kubuntu
+
+Do this before anything else. These instructions will install Kubuntu on your device, which is the operating system that all the configurations I've made run on. Most of my config files should work fine on other Linux distributions, and some of them on other operating systems, including Windows, MacOS and BSD variants, but they might require some tweaks.
+
+## Preparing a USB to boot Kubuntu
 
 This section assumes you are on a Windows 10 machine before you install Kubuntu. To install from other machines, follow the [Kubuntu installation guide](https://userbase.kde.org/Kubuntu/Installation). If you are using Windows 10, follow these instructions:
 
@@ -22,9 +32,9 @@ This section assumes you are on a Windows 10 machine before you install Kubuntu.
 
 8.    Press install and wait for the .iso to be downloaded and written to the USB drive
 
-# Installing Kubuntu
+## Installing Kubuntu
 
-If you want acsess to anything you currently have on the computer you are going to install Kubuntu onto, EXTERNALLY BACKUP THE COMPUTER, there is a risk you will remove all data on this computer. For the remainder of these instructions, I will be showing how to install Kubuntu to be the sole OS on a new computer, so if you want to dual boot or keep acsess to files on your hard drive, follow the [Kubuntu installation guide](https://userbase.kde.org/Kubuntu/Installation#Install_Process), and ignore the instructions here.
+If you want acsess to anything you currently have on the computer you are going to install Kubuntu onto, **EXTERNALLY BACKUP THE COMPUTER**, there is a risk you will remove all data on this computer. For the remainder of these instructions, I will be showing how to install Kubuntu to be the sole OS on a new computer, so if you want to dual boot or keep acsess to files on your hard drive, follow the [Kubuntu installation guide](https://userbase.kde.org/Kubuntu/Installation#Install_Process), and ignore the instructions here.
 
 1.    Turn off your computer
 
@@ -54,7 +64,7 @@ If you want acsess to anything you currently have on the computer you are going 
 
 14.    Wait for the installation to complete. Upon completion, a prompt will appear, asking you to restart. Press ```Restart Now```
 
-# First time Kubuntu setup
+## First time Kubuntu setup
 
 Congratulations, you have installed Kubunutu! Now to update it.
 
@@ -88,4 +98,46 @@ sudo apt upgrade
 ```
 sudo reboot
 ```
-Kubuntu is now up and running. Select what you want out of the following sections
+
+# Basic Setup
+
+These steps will make the rest of the installation easier. From now on, "running a command" means opening the terminal (by default, this is Konsole), typing in the command and pressing enter. Where prompted, type in your password.
+
+## git
+
+Git is a version control system, and git and github will be required to install my configuration files on your machine. 
+
+### [git](https://git-scm.com/)
+
+1.    Run:
+```
+sudo apt install git
+```
+2.    Next, install LazyGit using Launchpad by running
+```
+sudo add-apt-repository ppa:lazygit-team/release
+```
+3. When prompted, press Enter, then finish the installation by running:
+```
+sudo apt update
+sudo apt install lazygit
+```
+### [Gihub cli](https://github.com/cli/cli)
+
+Github is the website you are on now, where this configuration is stored. If you haven't already, create a github account
+
+# KDE Configuration
+
+# Installing and Configuring Other Software
+
+## General software
+
+### Kitty
+
+Kitty is an alternative to Konsole. You can type the same commands as you do on Konsole or any other terminal, but it looks a little different and runs quite quickly. Install and configure it like this:
+
+1.    In Konsole, run:
+```
+sudo apt install kitty
+```
+2.    -INSERT GIT INSTRUCTIONS HERE-
