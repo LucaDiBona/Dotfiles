@@ -101,13 +101,13 @@ sudo reboot
 
 # Basic Setup
 
-These steps will make the rest of the installation easier. From now on, "running a command" means opening the terminal (by default, this is Konsole), typing in the command and pressing enter. Where prompted, type in your password.
+These steps will make the rest of the installation easier. From now on, "running a command" means opening the terminal (by default, this is Konsole), typing in the command and pressing enter. Where prompted, type in your password. When multiple commands are in the same code block, run each one by one.
 
-## git
+## Git
 
 Git is a version control system, and git and github will be required to install my configuration files on your machine. 
 
-### [git](https://git-scm.com/)
+### [Installing Git](https://git-scm.com/)
 
 1.    Run:
 ```
@@ -117,7 +117,7 @@ sudo apt install git
 ```
 sudo add-apt-repository ppa:lazygit-team/release
 ```
-3. When prompted, press Enter, then finish the installation by running:
+3.    When prompted, press Enter, then finish the installation by running:
 ```
 sudo apt update
 sudo apt install lazygit
@@ -125,6 +125,18 @@ sudo apt install lazygit
 ### [Gihub cli](https://github.com/cli/cli)
 
 Github is the website you are on now, where this configuration is stored. If you haven't already, create a github account [here](https://github.com/join?). Then follow the steps below:
+
+1.    Install github cli using these commands:
+```
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
+sudo apt-add-repository https://cli.github.com/packages
+sudo apt update
+sudo apt install gh
+```
+2.    Connect your github account by running and following the instructions:
+```
+gh auth login
+```
 
 # KDE Configuration
 
